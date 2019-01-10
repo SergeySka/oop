@@ -37,7 +37,7 @@ class Pen {
   public $color;
   public $inkColor;
   public $price;
-  public function getDiscountPrice() {
+  public function DiscountPrice() {
     $price = $this->price - 3;
   }
 }
@@ -82,4 +82,4 @@ $table = new Product('table', 'wood');
 $table->price = '75';
 $cup = new Product('cup', 'glass');
 $cup->price = '6';
-?>
+
